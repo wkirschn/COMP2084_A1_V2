@@ -23,10 +23,16 @@ namespace COMP2084_A1_WyattKirschner_200407722.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Purpose()
         {
             return View();
         }
+
+
+
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
